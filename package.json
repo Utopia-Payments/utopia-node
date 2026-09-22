@@ -1,0 +1,59 @@
+{
+  "name": "@utopia-payments/node",
+  "version": "0.1.0",
+  "description": "Official Node.js and TypeScript library for the Utopia Payments API: hosted checkout, subscriptions and signed webhooks.",
+  "author": "Utopia Payments <support@utopia-payments.com> (https://utopia-payments.com)",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=20.3"
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node scripts/build.mjs && node --test test/*.test.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "5.9.3"
+  },
+  "homepage": "https://utopia-payments.com/docs/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Utopia-Payments/utopia-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Utopia-Payments/utopia-node/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "utopia",
+    "payments",
+    "checkout",
+    "subscriptions",
+    "webhooks",
+    "api"
+  ]
+}
