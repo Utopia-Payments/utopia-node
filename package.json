@@ -1,6 +1,6 @@
 {
   "name": "@utopia-payments/node",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Official Node.js and TypeScript library for the Utopia Payments API: hosted checkout, subscriptions and signed webhooks.",
   "author": "Utopia Payments <support@utopia-payments.com> (https://utopia-payments.com)",
   "license": "MIT",

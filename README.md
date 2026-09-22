@@ -14,10 +14,12 @@ Requires Node.js 20.3 or later.
 
 ## Install
 
-The package is prepared and tested but is not published to npm yet. The install
-command will return `404` until publication. Use the
-[REST API](https://utopia-payments.com/docs/reference/) in production today;
-the examples below describe the package API planned for publication.
+```bash
+npm install @utopia-payments/node
+```
+
+Source and releases are published from
+[`Utopia-Payments/utopia-node`](https://github.com/Utopia-Payments/utopia-node).
 
 ## Quick start
 
